@@ -1,4 +1,4 @@
-package com.main.client.model;
+package com.main.model;
 
 public class Student {
 

@@ -5,7 +5,7 @@ import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
-import com.main.client.model.Student;
+import com.main.model.Student;
 
 
 
