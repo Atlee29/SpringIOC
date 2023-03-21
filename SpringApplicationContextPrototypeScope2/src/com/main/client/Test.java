@@ -21,6 +21,9 @@ public class Test {
 		Student s1=(Student) ac.getBean("s");
 		System.out.println(s1);
 		s1.display();
+		Student s3=(Student) ac.getBean("s");
+		System.out.println(s3);
+		s1.display();
 
 	}
 
