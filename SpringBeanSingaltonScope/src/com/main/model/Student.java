@@ -1,0 +1,12 @@
+package com.main.model;
+
+public class Student {
+
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+}
