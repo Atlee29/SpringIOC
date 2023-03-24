@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="b" class="com.main.model.Bank">
+		<property name="branchId" value="1"></property>
+		<property name="bname" value="SBI"></property>
+	</bean>
+	
+	<bean id="ac" class="com.main.model.Account" parent="b">
+		<property name="accountNo" value="111111"></property>
+		<property name="ahname" value="abcd"></property>
+	</bean>
+</beans>
