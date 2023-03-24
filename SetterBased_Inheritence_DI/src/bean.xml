@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="p" class="com.main.model.Product" parent="s">
+    <property name="pId" value="1"></property>
+    <property name="pName" value="Dell"></property>
+    <property name="price" value="55000.00"></property>
+        
+        
+    </bean>
+    <bean id="s" class="com.main.model.Supplier">
+    <property name="sId" value="10"></property>
+    <property name="sName" value="abc"></property>
+    <property name="mobile" value="446748929"></property>
+    <property name="cities">
+      <list>
+        <value>Pune</value>
+      </list>
+    </property>
+        
+        
+    </bean>
+        
+    </beans>
